@@ -73,7 +73,7 @@ $(function () {
       renderHeroChart(hero);
       if (hero.powerstats.intelligence === "null") {
         $("#chartContainer").html(
-          '<div class="alert alert-warning fw-bold" role="alert">No power stats.( ˘︹˘ )</div>'
+          '<div class="alert alert-warning fw-bold" role="alert">No power stats.</div>'
         );
       }
     }
